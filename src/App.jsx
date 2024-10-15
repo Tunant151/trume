@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow bg-white dark:bg-gray-900">
@@ -29,7 +29,7 @@ const App = () => {
         </main>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 };
 
