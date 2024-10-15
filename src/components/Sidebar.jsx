@@ -26,7 +26,7 @@ const Sidebar = ({ isOpen, setIsSidebarOpen }) => {
           <div className="flex justify-between items-center pr-16">
             {/* Logo and Name */}
             <div className="flex items-center space-x-2">
-              <img src="/images/logo.png" alt="TruMe Logo" className="h-24" />
+              <img src={import.meta.env.BASE_URL + "/images/logo.png"} alt="TruMe Logo" className="h-24" />
               <span className="text-2xl font-bold text-[--primary-color]">TruMe</span>
             </div>
 
