@@ -5,7 +5,7 @@ const HeroSection = ({ title, subtitle, buttonText, backgroundImage, overlayShif
     <section
       className="relative h-[50vh] lg:h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center"
       style={{
-        backgroundImage: `url(${import.meta.env.BASE_URL}${backgroundImage})`,
+        backgroundImage: `url(${import.meta.env.VITE_APP_BASE_URL}${backgroundImage})`,
       }}      
     >
       {/* Red Diagonal Overlays with Position Control */}

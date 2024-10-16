@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Company Info */}
         <div>
           <div className='flex items-center mb-4 gap-2'>
-            <img src={import.meta.env.BASE_URL + "/images/logo.png"} alt="Logo" className="h-16" />
+            <img src={import.meta.env.VITE_APP_BASE_URL + "/images/logo.png"} alt="Logo" className="h-16" />
             <p className='font-bold text-3xl justify-center'>TruMe</p>
           </div>
           <p className="text-gray-400 mb-4 text-2xl lg:text-base">

@@ -22,13 +22,13 @@ const Home = () => {
           <div className="w-full lg:w-1/2">
             <div className="relative">
               <img
-                src={import.meta.env.BASE_URL + "/images/Home/Frame2.png"}
+                src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/Frame2.png"}
                 alt="Company Team"
                 className="w-2/3 h-auto rounded-lg shadow-md"
                 loading='lazy'
               />
               <img
-                src={import.meta.env.BASE_URL + "/images/Home/Frame3.png"}
+                src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/Frame3.png"}
                 alt="Company Collaboration"
                 className="absolute bottom-[-50px] right-28 w-1/3 h-auto rounded-lg shadow-lg"
                 loading='lazy'
@@ -75,7 +75,7 @@ const Home = () => {
           {/* Left - Image Section */}
           <div className="lg:flex w-full lg:w-2/5 bg-[--primary-color] p-8 rounded-lg shadow-md hidden flex-col justify-center items-center">
             <img
-              src={import.meta.env.BASE_URL + "/images/Home/Frame4.png"}
+              src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/Frame4.png"}
               alt="TruMe App Mockup"
               className="w-auto max-w-full h-auto"  // Adjusted to prevent distortion
               loading='lazy'
@@ -84,7 +84,7 @@ const Home = () => {
             {/* The Logo  */}
             <div className="mt-4 flex w-full items-center text-2xl font-semibold text-white gap-2">
               <img 
-                src={import.meta.env.BASE_URL + "/images/favicon.png"}
+                src={import.meta.env.VITE_APP_BASE_URL + "/images/favicon.png"}
                 alt="Logo" 
                 className="h-10"
                 loading='lazy'
@@ -113,7 +113,7 @@ const Home = () => {
             {/* Left - Image Section */}
               <div className="lg:hidden w-full lg:w-2/5 bg-[--primary-color] p-8 rounded-lg shadow-md flex flex-col justify-center items-center">
                 <img
-                  src={import.meta.env.BASE_URL + "/images/Home/Frame4.png"}
+                  src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/Frame4.png"}
                   alt="TruMe App Mockup"
                   className="w-auto max-w-full h-auto"  // Adjusted to prevent distortion
                   loading='lazy'
@@ -122,7 +122,7 @@ const Home = () => {
                 {/* The Logo  */}
                 <div className="mt-4 flex w-full items-center text-2xl font-semibold text-white gap-2">
                   <img 
-                    src={import.meta.env.BASE_URL + "/images/favicon.png"}
+                    src={import.meta.env.VITE_APP_BASE_URL + "/images/favicon.png"}
                     alt="Logo" 
                     className="h-10"
                     loading='lazy'
@@ -182,7 +182,7 @@ const Home = () => {
             {/* Control Mobile  */}
             <div className="lg:w-2/5 bg-green-100 p-8 rounded-lg shadow-md flex lg:hidden flex-col justify-center items-center">
               <img
-                src={import.meta.env.BASE_URL + "/images/Home/Frame5.png"}  // Replace with actual image for WillaCrest mockup
+                src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/Frame5.png"}  // Replace with actual image for WillaCrest mockup
                 alt="WillaCrest App Mockup"
                 className="w-auto max-w-full h-auto"  // Adjusted to prevent distortion
                 loading='lazy'
@@ -191,7 +191,7 @@ const Home = () => {
               {/* The Logo */}
               <div className="mt-4 flex items-center text-2xl font-semibold text-gray-900 gap-2 w-full">
                 <img 
-                  src={import.meta.env.BASE_URL + "/images/Home/willacrest-logo.png"}  // Replace with actual logo
+                  src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/willacrest-logo.png"}  // Replace with actual logo
                   alt="WillaCrest Logo" 
                   className="h-10"
                   loading='lazy'
@@ -226,7 +226,7 @@ const Home = () => {
           {/* Right - Image Section */}
           <div className="lg:w-2/5 bg-green-100 p-8 rounded-lg shadow-md hidden lg:flex flex-col justify-center items-center">
             <img
-              src={import.meta.env.BASE_URL + "/images/Home/Frame5.png"}  // Replace with actual image for WillaCrest mockup
+              src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/Frame5.png"}  // Replace with actual image for WillaCrest mockup
               alt="WillaCrest App Mockup"
               className="w-auto max-w-full h-auto"  // Adjusted to prevent distortion
               loading='lazy'
@@ -235,7 +235,7 @@ const Home = () => {
             {/* The Logo */}
             <div className="mt-4 flex items-center text-2xl font-semibold text-gray-900 gap-2 w-full">
               <img 
-                src={import.meta.env.BASE_URL + "/images/Home/willacrest-logo.png"}  // Replace with actual logo
+                src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/willacrest-logo.png"}  // Replace with actual logo
                 alt="WillaCrest Logo" 
                 className="h-10"
                 loading='lazy'
@@ -262,7 +262,7 @@ const Home = () => {
       <section
         className="relative flex flex-col items-center justify-center h-[50vh] bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${import.meta.env.BASE_URL + '/images/Home/Frame6.png'})`,  // Background image
+          backgroundImage: `url(${import.meta.env.VITE_APP_BASE_URL + '/images/Home/Frame6.png'})`,  // Background image
         }}
       >
         {/* Dark Overlay */}
@@ -333,7 +333,7 @@ const Home = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               <div className="flex items-center mt-4">
-                <img src={import.meta.env.BASE_URL + "/images/Home/user1.png"} alt="Dianne Russell" className="w-12 h-auto rounded-full mr-4" />
+                <img src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/user1.png"} alt="Dianne Russell" className="w-12 h-auto rounded-full mr-4" />
                 <div className='text-left'>
                   <h3 className="font-bold text-gray-900 dark:text-white">Dianne Russell</h3>
                   <p className="text-gray-500 dark:text-gray-400 text-sm">User of TruMe</p>
@@ -348,7 +348,7 @@ const Home = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               <div className="flex items-center mt-4">
-                <img src={import.meta.env.BASE_URL + "/images/Home/user2.png"} alt="Ronald Richards" className="w-12 h-auto rounded-full mr-4" />
+                <img src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/user2.png"} alt="Ronald Richards" className="w-12 h-auto rounded-full mr-4" />
                 <div className='text-left'>
                   <h3 className="font-bold text-gray-900 dark:text-white">Ronald Richards</h3>
                   <p className="text-gray-500 dark:text-gray-400 text-sm">User of TruMe</p>
@@ -372,7 +372,7 @@ const Home = () => {
             <div className="dark:bg-gray-900 py-6 rounded-xl flex flex-col gap-6 w-full xl:w-2/5 2xl:w-3/5">
               <div className='w-full'>
                 <img
-                  src={import.meta.env.BASE_URL + "/images/Home/Frame7.png"}
+                  src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/Frame7.png"}
                   alt="Maximizing Property Listings"
                   className="w-full h-auto rounded-lg object-cover"
                 />
@@ -398,7 +398,7 @@ const Home = () => {
               {/* Insight 2 */}
               <div className="flex gap-4 dark:bg-gray-900 px-2">
                 <img
-                  src={import.meta.env.BASE_URL + "/images/Home/Frame8.png"}
+                  src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/Frame8.png"}
                   alt="Transform Your Home Buying Experience"
                   className="w-auto h-full mb-4 rounded-lg object-cover"
                 />
@@ -422,7 +422,7 @@ const Home = () => {
               {/* Insight 3 */}
               <div className="flex gap-4 dark:bg-gray-900 px-2">
                 <img
-                  src={import.meta.env.BASE_URL + "/images/Home/Frame9.png"}
+                  src={import.meta.env.VITE_APP_BASE_URL + "/images/Home/Frame9.png"}
                   alt="Transform Your Home Buying Experience"
                   className="w-auto h-full mb-4 rounded-lg object-cover"
                 />

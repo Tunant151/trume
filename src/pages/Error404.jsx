@@ -5,7 +5,7 @@ const Error404 = () => {
     <div
       className="flex flex-col min-h-[80vh] items-center justify-center text-center bg-cover bg-center bg-no-repeat relative dark:bg-gray-900"
       style={{
-        backgroundImage: `url(${import.meta.env.BASE_URL + "/images/Error/Background.png"})`, // Replace with the actual path to your background image
+        backgroundImage: `url(${import.meta.env.VITE_APP_BASE_URL + "/images/Error/Background.png"})`, // Replace with the actual path to your background image
       }}      
     >
       {/* Dark Overlay */}
@@ -13,7 +13,7 @@ const Error404 = () => {
 
       {/* 404 Image */}
       <div className="relative z-10 mb-32 lg:mb-6 justify-center items-center flex w-2/3">
-        <img src={import.meta.env.BASE_URL + "/images/Error/Error.png"}  alt="404 Error" className="w-full lg:w-1/3" /> {/* Replace with the actual path to your 404 image */}
+        <img src={import.meta.env.VITE_APP_BASE_URL + "/images/Error/Error.png"}  alt="404 Error" className="w-full lg:w-1/3" /> {/* Replace with the actual path to your 404 image */}
       </div>
 
       {/* Error Message */}

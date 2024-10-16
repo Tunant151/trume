@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Sidebar from './Sidebar';
+const baseUrl = import.meta.env.VITE_APP_BASE_URL;
+
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -12,7 +14,7 @@ const Navbar = () => {
         <div className="px-4 flex justify-between items-center py-4 container">
           {/* Logo and Text as Link */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src={import.meta.env.BASE_URL + "/images/logo.png"} alt="TruMe Logo" className="h-16 lg:h-10" />
+            <img src={`${import.meta.env.VITE_APP_BASE_URL}/images/logo.png`} alt="TruMe Logo" className="h-16 lg:h-10" />
             <span className="text-xl font-bold text-[--primary-color] whitespace-nowrap">TruMe</span>
           </Link>
 
