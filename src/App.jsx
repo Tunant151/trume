@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <Router>
+    // <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow bg-white dark:bg-gray-900">
@@ -29,7 +29,7 @@ const App = () => {
         </main>
         <Footer />
       </div>
-    </Router>
+    // </Router>
   );
 };
 
