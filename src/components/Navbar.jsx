@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import Sidebar from './Sidebar';
 const baseUrl = import.meta.env.VITE_APP_BASE_URL;
 
-
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const location = useLocation(); // Get current location to determine active link
